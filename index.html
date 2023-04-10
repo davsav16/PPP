@@ -6,132 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Paradigm Pet Professionals: New Pet Consultation</title>
     <meta name="description" content="Find out about how our New Pet Care Consultation can help you to take care of your new Friend." />
-
-    <style>
-        body {
-            font-family: 'Inter';
-            line-height: 19px;
-            letter-spacing: 0.02em;
-            font-style: normal;
-            margin: 0;
-        }
-        .page-width {
-            margin: 0 auto;
-            width: 800px;
-        }
-        .top-header {
-            display: flex;
-            padding-top: 20px;
-            padding-bottom: 15px;
-        }
-        .main-nav {
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-            margin: auto 60px;
-        }
-        .logo-image {
-            width: 100px
-        }
-        .nav-item {
-            text-decoration: none;
-            font-size: 20px;
-            font-weight: 500;
-            padding: 5px;
-            transition: border .15s;
-            color: #3f3da7;
-        }
-        .nav-item-container {
-            width:75px;
-        }
-        .nav-item:hover {
-            border: 3px solid #3f3da7; 
-            border-radius: 8px;
-            box-shadow: 2px 2px 2px 2px rgb(158, 157, 157, 0.5);
-        }
-        .nav-item:active {
-            opacity: .75;
-        }
-        .bottom-header {
-            border-top: 2px solid rgb(158, 157, 157, 0.5);
-            padding: 20px;
-            border-bottom: 2px solid rgb(158, 157, 157, 0.5);
-            display: flex;
-            justify-content: center;
-        }
-        .bottom-header input {
-           padding: 10px;
-           border-radius: 16px;
-           width: 300px;
-           border: 2px solid #3f3da7;
-           background-color: rgb(249, 251, 252);
-           transition: border .15s;
-        }
-        .bottom-header input:hover {
-            border: 3px solid #3f3da7; 
-            box-shadow: 2px 2px 2px 2px rgb(158, 157, 157, 0.5);
-        }
-
-        /* Start slider */
-        .slider {
-        position: relative;
-        overflow: hidden;
-        width: 100%;
-        height: 300px;
-        margin: 48px auto;
-        background-size: cover;
-        border-radius: 3px;
-        box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
-        transition: background-image 0.8s ease-in-out;
-        }
-
-        .slider .slide {
-        display: none;
-        }
-
-        .caption {
-        position: absolute;
-        left: 0;
-        top: 0;
-        bottom: 0;
-        opacity: 0;
-        display: inline-block;
-        padding: 48px;
-        background: rgba(0, 0, 0, 0.75);
-        color: white;
-        margin: 0;
-        font-size: 24px;
-        font-weight: 700;
-        transition: all 0.8s ease-in-out;
-        }
-
-        .caption small {
-        font-size: 16px;
-        font-weight: 400;
-        }
-
-        /* Start styling the grey section */
-        .grey-section {
-            background-color: #D9D9D9;
-        }
-        .grey-text {
-            text-align: center;
-            padding: 20px 0;
-        }
-
-        /* style card section */
-        .section-card-container {
-            padding: 80px 0;
-        }
-
-        .card {
-            width: 40%;
-            border: 2px solid rgb(158, 157, 157, 0.5);
-            border-radius: 8px;
-            padding: 20px;
-            text-align: center;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="mainstyles.css" media="screen" /> 
 </head>
 <body>
     <header class="page-width">
@@ -155,6 +30,8 @@
     </header>
     <main>
         <section class="page-width">
+            <h1 class="main-header">Pardigm Pet Professionals</h1>
+            <h2 class="secondary-header">We specialize in New Pet Consultations</h2>
             <div class="slider">
                 <div class="slide" data-background="https://placedog.net/500" data-href="dog"></div>
                 <p class="caption caption-0">
@@ -178,7 +55,7 @@
         <section class="grey-section">
             <div class="grey-text page-width">
                 <h2>How we can help you</h2>
-                <p>Pets are nature's gift to humanity. It has been scientifically proven that opening our homes and hearts to a pet increases our longevity and improves our overall quality of life as well as the lives of our pets. At Pet Paradigm Professionals, our mission is to offer resources to help you care for your furry, scaly, feathery, and slimy loved ones. Our pet experts—or “Pexperts”—have been working with pet owners and professionals alike for the past twelve years. They offer one-on-one consultations with current and prospective pet owners as well as group presentations designed for veterinary, pet shelter, and pet breeding professionals.</p>
+                <p>Pets are nature's gift to humanity.</p><p>It has been scientifically proven that opening our homes and hearts to a pet increases our longevity and improves our overall quality of life as well as the lives of our pets. At Pet Paradigm Professionals, our mission is to offer resources to help you care for your furry, scaly, feathery, and slimy loved ones. </p> <p>Our pet experts—or “Pexperts”—have been working with pet owners and professionals alike for the past twelve years. They offer one-on-one consultations with current and prospective pet owners as well as group presentations designed for veterinary, pet shelter, and pet breeding professionals.</p>
             </div>
         </section>
         <section class="section-card-container page-width">
@@ -226,6 +103,6 @@ function advanceSliderItem() {
         currentCaption.style.cssText = 'opacity: 1;';
     }
 
-    let intervalID = setInterval(advanceSliderItem, 3000);
+    let intervalID = setInterval(advanceSliderItem, 4000);
 
 </script>
