@@ -477,3 +477,6 @@ footer {
     opacity: 0.8;
     box-shadow: 2px 2px 2px 2px rgb(158, 157, 157, 0.5);
 }
+.pet-card ul {
+    text-align: left;
+}
