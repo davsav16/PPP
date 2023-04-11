@@ -400,3 +400,7 @@ footer {
 .faq-img-container img {
     width: 15%;
 }
+/* Privacy Policy page */
+.privacy-policy {
+    padding-bottom: 80px;
+}
