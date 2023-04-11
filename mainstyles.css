@@ -262,7 +262,7 @@ footer {
     /* Stay in place */
     z-index: 1;
     /* Sit on top */
-    padding-top: 300px;
+    padding-top: 150px;
     /* Location of the box */
     left: 0;
     top: 0;
@@ -290,7 +290,7 @@ footer {
 .form-content {
     display: flex;
     justify-content: space-between;
-    margin: 0 150px;
+    margin: 0 100px;
 }
 
 @media screen and (min-width: 1500px) {
