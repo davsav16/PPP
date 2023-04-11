@@ -1,12 +1,179 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Birds: New Pet Consultation</title>
+    <meta name="description" content="Find out about how our New Pet Care Consultation can help you to take care of your new song bird." />
+    <link rel="stylesheet" type="text/css" href="mainstyles.css" media="screen" /> 
 </head>
 <body>
-    Bird
+    <header class="page-width">
+        <div class="top-header">
+            <div>
+                <a href="/">
+                    <img src="./image2.png" alt="Paradigm Pet Professionals Logo" class="logo-image"/>
+                </a>
+            </div>
+            <nav class="main-nav">
+                <div class="nav-item-container"><a href="/" class="nav-item">Home</a></div>
+                <div class="nav-item-container"><a href="/dog.html" class="nav-item">Dogs</a></div>
+                <div class="nav-item-container"><a href="/cat.html" class="nav-item">Cats</a></div>
+                <div class="nav-item-container"><a href="/bird.html"class="nav-item">Birds</a></div>
+                <div class="nav-item-container"><a href="/faqs.html"class="nav-item">FAQs</a></div>
+            </nav>
+        </div>
+        <div class="bottom-header">
+            <input type="text" placeholder="How can we help?" />
+        </div>
+    </header>
+    <main>
+        <section class="page-width">
+            <h1 class="main-header">Nature's song writer</h1>
+            <h2 class="secondary-header">Find out how your song bird is doing</h2>
+        </section>
+        <section class="pet-scroll-buttons-section page-width">
+            <a href="#identifying-depression">Identifying Depression</a>
+            <a href="#what-to-do">What To Do</a>
+        </section>
+        <section class="grey-section">
+            <div class="grey-text page-width pet-page">
+                <p>Birds are very intriguing creatures as they can range from birds as small as a Cuban bee hummingbird (about two inches long and a little over 1/20 of an ounce) to as large as an ostrich. While most birds fly, there are some that don't. Birds are amazing and each breed is unique in its own way, particularly when it comes to their relational needs and well-being. </p>
+                <img src="/image12.jpeg" alt="song bird looks with one eye into the camera" />
+            </div>
+        </section>
+        <section class="section-card-container page-width card-container-pet-page">
+            <div class="card pet-card" id="identifying-depression">
+                <div class="img-container pet-img-container">
+                    <img src="/blue-bird-cartoon.png" />
+                </div>
+                <h3>Depression in birds</h3>
+                <p>Unfortunately, birds can experience sadness and depression just like humans. A number of root causes may be responsible for your bird's depression such as an illness (either physical or mental), losing its companion, or increasingly becoming bored. Some signs to help identify if your bird is experiencing depression may include the following:
+                </p> 
+                <ul>
+                    <li>reduced appetite</li>
+                    <li>becoming increasingly irritable</li>
+                    <li>aggressive behavior</li>
+                    <li>songs have a different, more solemn tone</li>
+                </ul>  
+            </div>
+
+            <div class="card pet-card" id="what-to-do">
+                <div class="img-container pet-img-container">
+                    <img src="/veterinary-first-aid-heart.png" />
+                </div>
+                <h3>What you can do</h3>
+                <p>Be sure to tell your veterinarian if you see signs of any of these symptoms. Just like many illnesses, identifying and treating the symptoms earlier may drastically increase the lifespan of your birdie.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-top">
+            <div class="footer-top-content">
+                <img src="/image3.png">
+                <p class="copyright">Copyright 2023</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <a href="/">
+                <img src="/image2.png">
+            </a>
+            <ul class="footer-link-container">
+                <li class="footer-link"><a href="/privacypolicy.html">Privacy Policy</a></li>
+                <li class="footer-link">
+                    <a href="/">Pet Pages</a>
+                    <ul class="footer-link-sublist">
+                        <li><a href="/cat.html">Cats</a></li>
+                        <li><a href="/dog.html">Dogs</a></li>
+                        <li><a href="/bird.html">Birds</a></li>
+                    </ul>
+                </li>
+                <li class="footer-link"><a href="/faqs.html">FAQs</a></li>
+            </ul>
+        </div>
+    </footer>
+    <!-- Trigger/Open The Modal -->
+    <button id="myBtn">Contact a Pexpert</button>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 class="modalHeadingh2">Fill out this form to contact a Pexpert!</h2>
+        <h3 class="modalHeadingh3">We will contact you within 48 hours.</h3>
+        <form>
+            <div class="form-content">
+                <div class="formInfo">
+                    <h4>Your Info</h4>
+                    <div class="form-options">
+                        <input class="form-input" type="text" placeholder="Your Name" />
+                        <input class="form-input" type="email" placeholder="ilovepets123@example.com" />
+                        <select class="form-input">
+                            <option class="optionValue" value="Your Time Zone">Your Time Zone</option>
+                            <option value="EST">EST</option>
+                            <option value="CST">CST</option>
+                            <option value="MST">MST</option>
+                            <option value="PST">PST</option>
+                            <option value="HAST">HAST</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="formInfo">
+                    <h4>Your Pet's Info</h4>
+                    <div class="form-options">
+                        <input class="form-input" type="text" placeholder="Your Pet's Name" />
+                        <input class="form-input" type="text" placeholder="What Type of animal are they?" />
+                        <select class="form-input">
+                            <option class="optionValue" value="Your Pet's Age">Your Pet's Age</option>
+                            <option value="> 1 month"> > 1 month</option>
+                            <option value="> 6 months"> > 6 months</option>
+                            <option value="> 1 year"> > 1 year</option>
+                            <option value="1 to 2 years">1 to 2 years</option>
+                            <option value="2 to 5 years">2 to 5 years</option>
+                            <option value="5 to 7 years">5 to 7 years</option>
+                            <option value="+7 years">+7 years</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="form-button">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    </div>
 </body>
 </html>
+
+<script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+    
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    
+    // When the user clicks the button, open the modal 
+    btn.onclick = function() {
+      modal.style.display = "block";
+    }
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+    
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+    </script>
