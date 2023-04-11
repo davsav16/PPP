@@ -83,7 +83,7 @@
             </div>
         </section>
         <section class="page-width adoption-help">
-            <p>We are also happy to help you navigate the adoption process! We will guide you through each step in the process from determining which type of pet is best suited for your family and home environment, to completing the necessary paperwork, to bringing your new loved one home. Please fill out our contact form to request a consultation. We will contact you within 48 hours to schedule a consultation. All fields are required.</p>
+            <p>We are also happy to help you navigate the adoption process! We will guide you through each step in the process from determining which type of pet is best suited for your family and home environment, to completing the necessary paperwork, to bringing your new loved one home. Please fill out our <span id="contactAdoption">contact form</span> to request a consultation. We will contact you within 48 hours to schedule a consultation. All fields are required.</p>
         </section>
     </main>
     <footer>
@@ -112,6 +112,39 @@
             </ul>
         </div>
     </footer>
+    <!-- Trigger/Open The Modal -->
+    <button id="myBtn">Contact a Pexpert</button>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 class="modalHeadingh2">Fill out this form to contact a Pexpert!</h2>
+        <h3 class="modalHeadingh3">We will contact you within 48 hours.</h3>
+        <form>
+            <div class="userInfo">
+                <p>Your Info</p>
+                <input type="text" placeholder="Your name" />
+                <input type="email" placeholder="ilovepets123@example.com" />
+                <select>
+                    <option value="Your Time Zone">Your Time Zone</option>
+                    <option value="EST">EST</option>
+                    <option value="CST">CST</option>
+                    <option value="MST">MST</option>
+                    <option value="PST">PST</option>
+                    <option value="HAST">HAST</option>
+                </select>
+            </div>
+        </form>
+        User:
+        name, phone number, email address, time zone
+        Pet: 
+        name, type and age
+    </div>
+
+    </div>
 </body>
 </html>
 <script>
@@ -143,3 +176,38 @@ function advanceSliderItem() {
     let intervalID = setInterval(advanceSliderItem, 6000);
 
 </script>
+
+<script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+    
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+
+    // Get span that opens the modal
+    var adoptionSpan = document.getElementById("contactAdoption")
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    
+    // When the user clicks the button, open the modal 
+    btn.onclick = function() {
+      modal.style.display = "block";
+    }
+
+    adoptionSpan.onclick = function() {
+      modal.style.display = "block";
+    }
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+    
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+    </script>
