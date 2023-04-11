@@ -287,7 +287,7 @@ footer {
 .form-content {
     display: flex;
     justify-content: space-between;
-    margin: 0 250px;
+    margin: 0 150px;
 }
 
 .form-content h4 {
@@ -403,4 +403,33 @@ footer {
 /* Privacy Policy page */
 .privacy-policy {
     padding-bottom: 80px;
+}
+/* Pet page styling */
+.pet-page {
+    text-align: left;
+    display: flex;
+}
+
+.pet-page p {
+    padding-right: 20px;
+    margin: auto;
+}
+
+.pet-page img {
+    max-width: 34%;
+    margin: 20px 0;
+}
+
+.pet-page-link {
+    color: #3f3da7;
+    transition: opacity 0.15s;
+    text-decoration: none;
+}
+
+.pet-page-link:hover {
+    opacity: .75;
+}
+
+.card-container-pet-page {
+    display: block;
 }
