@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: 'Inter';
     line-height: 19px;
@@ -290,6 +293,17 @@ footer {
     margin: 0 150px;
 }
 
+@media screen and (min-width: 1500px) {
+    .form-content {
+        margin: 0 220px;
+    }
+}
+
+@media screen and (min-width: 1700px) {
+    .form-content {
+        margin: 0 350px;
+    }
+}
 .form-content h4 {
     text-align: center;
     font-size: 18px;
@@ -432,4 +446,34 @@ footer {
 
 .card-container-pet-page {
     display: block;
+}
+.pet-card {
+    width: 756px;
+    margin: 40px 0;
+}
+
+.pet-img-container img {
+    width: 15%;
+}
+
+.pet-scroll-buttons-section {
+    padding: 40px 0;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pet-scroll-buttons-section a {
+    text-decoration: none;
+    color: black;
+    background: rgb(255, 240, 0);
+    padding: 10px 15px;
+    border: 2px solid rgb(255, 240, 0);
+    border-radius: 8px;
+    transition: opacity 0.15s;
+}
+
+.pet-scroll-buttons-section a:hover {
+    opacity: 0.8;
+    box-shadow: 2px 2px 2px 2px rgb(158, 157, 157, 0.5);
 }
