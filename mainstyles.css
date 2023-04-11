@@ -283,6 +283,65 @@ footer {
     width: 80%;
 }
 
+.form-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 150px;
+}
+
+.form-content h4 {
+    text-align: center;
+    font-size: 18px;
+    color: rgb(158, 157, 157);
+}
+
+.formInfo {
+    padding: 0 80px;
+}
+
+.form-button {
+    display: flex;
+    justify-content: space-around;
+}
+
+.form-button button {
+    background: rgb(255, 240, 0);
+    padding: 10px 15px;
+    border: 2px solid rgb(255, 240, 0);
+    font-size: 20px;
+    transition: opacity 0.15s;
+    border-radius: 8px;
+}
+
+.form-button button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    box-shadow: 2px 2px 2px 2px rgb(158, 157, 157, 0.5);
+}
+
+.form-options {
+    display: flex;
+    flex-direction: column;
+}
+
+.optionValue {
+    color: rgb(158, 157, 157);
+}
+
+.form-input {
+    margin: 10px 0;
+    width: 185px;
+    padding: 15px 10px;
+    border: 2px solid rgb(158, 157, 157);
+    border-radius: 8px;
+    transition: opacity 0.15s;
+    ;
+}
+
+.form-input:hover {
+    opacity: .8;
+    box-shadow: 2px 2px 2px 2px rgb(158, 157, 157, 0.5);
+}
 /* The Close Button */
 .close {
     color: #aaaaaa;
