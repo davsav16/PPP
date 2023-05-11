@@ -1,0 +1,323 @@
+body {
+    position: relative;
+    margin: 0;
+}
+
+header,
+main {
+    max-width: 800px;
+    margin: auto;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.modalContainer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+/* Styling for the Nav  */
+/* desktop */
+.main-header-container {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-container {
+    width: 8%
+}
+
+.logo-container img {
+    width: 100%;
+}
+
+.main-header-container nav {
+    display: flex;
+    justify-content: space-between;
+    width: 680px;
+    margin: auto 0;
+}
+
+.nav-item {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-item-container {
+    margin: auto 0;
+}
+
+.searchInput {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 18px;
+}
+
+/* mobile navigation */
+.mobileNavigation {
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    padding: 20px 0;
+    border-radius: 18px 18px 0px 0;
+    display: none;
+}
+
+.mobileInnerNavTop {
+    display: flex;
+    justify-content: space-around;
+}
+
+.mobileSearchInputContainer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+#myLinks {
+    display: none;
+}
+
+.nav-item-container-mobile {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 40px;
+    border-top: solid;
+}
+
+.nav-item-container-mobile .nav-item {
+    padding-top: 6px;
+}
+
+
+@media only screen and (max-width: 700px) {
+    header {
+        display: none;
+    }
+
+    .mobileNavigation {
+        display: block;
+    }
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+
+
+
+/* header main */
+.imageMain {
+    background-image: url(https://cdn.shopify.com/s/files/1/0719/2635/0101/files/beach.jpg?v=1683677411);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.header {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    padding: 20px;
+    padding-bottom: 140px;
+}
+
+.footerTopHeader {
+    color: white;
+    text-align: center;
+    font-size: 22px;
+}
+
+.footerLinkContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-item-container-footer {
+    padding-top: 20px;
+}
+
+.nav-item-container-footer a {
+    color: white;
+}
+
+.nav-item-container-footer .nav-item {
+    font-size: 20px;
+}
+
+.cursiveHeader {
+    color: white;
+    font-family: cursive;
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 0;
+}
+
+.copyrightText {
+    text-align: center;
+    color: white;
+}
+
+.footerBottomLinksContainer {
+    display: flex;
+    justify-content: space-around;
+}
+/* Modal Styling */
+/* The Modal (background) */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Modal Header */
+.modal-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+/* Modal Body */
+.modal-body {
+    padding: 2px 16px;
+}
+
+/* Modal Footer */
+.modal-footer {
+    padding: 12px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+#myBtn {
+    background-color: #5cb85c;
+    border-radius: 18px;
+    padding: 10px;
+    color: white;
+    font-weight: 800;
+    text-shadow: 2px 2px black;
+    transition: background-color .15s;
+}
+
+#myBtn:hover {
+    background-color: #e2eee2;
+}
+
+#myBtnTwo {
+    background-color: #5cb85c;
+    border-radius: 18px;
+    padding: 10px;
+    color: white;
+    font-weight: 800;
+    text-shadow: 2px 2px black;
+    transition: background-color .15s;
+}
+
+#myBtnTwo:hover {
+    background-color: #e2eee2;
+}
+
+/* input field */
+.inputFields {
+    margin: 20px 0;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.modal-footer button {
+    padding: 10px;
+    border-radius: 18px;
+}
