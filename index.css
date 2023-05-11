@@ -455,6 +455,17 @@ footer {
     background-image: url(https://cdn.shopify.com/s/files/1/0719/2635/0101/files/istockphoto-1360470221-612x612.jpg?v=1683792317);
 }
 
+.pageSectionImage.supermarket {
+    background-image: url(https://cdn.shopify.com/s/files/1/0719/2635/0101/files/istockphoto-1360470221-612x612.jpg?v=1683792317);
+}
+
+.pageSectionImage.convenanceStore {
+    background-image: url(https://cdn.shopify.com/s/files/1/0719/2635/0101/files/download.jpg?v=1683793436);
+}
+
+.pageSectionImage.grocers {
+    background-image: url(https://cdn.shopify.com/s/files/1/0719/2635/0101/files/istockphoto-1265272573-612x612.jpg?v=1683793839);
+}
 /* Subsection Options */
 .subSectionOptions {
     margin: 20px;
