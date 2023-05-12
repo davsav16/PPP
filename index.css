@@ -172,6 +172,10 @@ header {
 .imageMain.enjoy {
     background-image: url(https://cdn.shopify.com/s/files/1/0719/2635/0101/files/image_1.jpg?v=1683865700);
 }
+/* travel Page */
+.imageMain.travel {
+    background-image: url(https://cdn.shopify.com/s/files/1/0719/2635/0101/files/istockphoto-1282610198-612x612.jpg?v=1683869721);
+}
 .header {
     color: white;
     font-size: 40px;
@@ -450,6 +454,9 @@ footer {
     text-align: center;
 }
 
+.pageSectionImage h3 {
+    font-size: 24px;
+}
 .subsectionIntro {
     font-size: 20px;
     color: black;
@@ -554,6 +561,33 @@ footer {
 
 .pageSectionImage.danceClub {
     background-image: url(https://cdn.shopify.com/s/files/1/0719/2635/0101/files/hi-dance-clubs-1.jpg?v=1683868797);
+}
+.pageSectionImage.air {
+    background-image: url(https://cdn.shopify.com/s/files/1/0719/2635/0101/files/1772943-bigthumbnail.jpg?v=1683869889);
+}
+
+.pageSectionImage.cruise {
+    background-image: url(https://cdn.shopify.com/s/files/1/0719/2635/0101/files/crusie-ship.webp?v=1683870176);
+}
+
+.pageSectionImage.buses {
+    background-image: url(https://cdn.shopify.com/s/files/1/0719/2635/0101/files/P1290722.jpg?v=1683870820);
+}
+
+.pageSectionImage.taxies {
+    background-image: url(https://cdn.shopify.com/s/files/1/0719/2635/0101/files/yellow-cab-263849.jpg?v=1683871296);
+}
+
+.pageSectionImage.rentalCar {
+    background-image: url(https://cdn.shopify.com/s/files/1/0719/2635/0101/files/exploring-providenciales-by-jeep-wrangler_600x400_6666fad2-bcdf-4287-a187-0ea6d2472b2b.jpg?v=1683871477);
+}
+
+.pageSectionImage.bikes {
+    background-image: url(https://cdn.shopify.com/s/files/1/0719/2635/0101/files/mazatlan_tropical_bike_adventure_excursion_2591-12.jpg?v=1683871665);
+}
+
+.pageSectionImage.walking {
+    background-image: url(https://cdn.shopify.com/s/files/1/0719/2635/0101/files/woman-in-bikini-with-beach-bag-walking-on-the-beach-in-tropical-island-free-photo.jpg?v=1683871854);
 }
 /* Subsection Options */
 .subSectionOptions {
