@@ -544,6 +544,17 @@ footer {
 .pageSectionImage.golf {
     background-image: url(https://cdn.shopify.com/s/files/1/0719/2635/0101/files/download_4.jpg?v=1683867902);
 }
+.pageSectionImage.pubs {
+    background-image: url(https://cdn.shopify.com/s/files/1/0719/2635/0101/files/island-pub-bar.jpg?v=1683868352);
+}
+
+.pageSectionImage.microbrewery {
+    background-image: url(https://cdn.shopify.com/s/files/1/0719/2635/0101/files/thompson_island_pic.jpg?v=1683868582);
+}
+
+.pageSectionImage.danceClub {
+    background-image: url(https://cdn.shopify.com/s/files/1/0719/2635/0101/files/hi-dance-clubs-1.jpg?v=1683868797);
+}
 /* Subsection Options */
 .subSectionOptions {
     margin: 20px;
