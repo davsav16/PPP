@@ -163,6 +163,15 @@ header {
 .imageMain.rest {
     background-image: url(https://cdn.shopify.com/s/files/1/0719/2635/0101/files/image.jpg?v=1683860242);
 }
+/* Adventures Page*/
+.imageMain.adventures {
+    background-image: url(https://cdn.shopify.com/s/files/1/0719/2635/0101/files/cascading-waterfall.jpg?v=1683865485);
+}
+
+/* Enjoy Page */
+.imageMain.enjoy {
+    background-image: url(https://cdn.shopify.com/s/files/1/0719/2635/0101/files/image_1.jpg?v=1683865700);
+}
 .header {
     color: white;
     font-size: 40px;
@@ -507,6 +516,33 @@ footer {
 
 .pageSectionImage.volcanoTours {
     background-image: url(https://cdn.shopify.com/s/files/1/0719/2635/0101/files/wasabi-tours-16.jpg?v=1683864551);
+}
+.pageSectionImage.history {
+    background-image: url(https://cdn.shopify.com/s/files/1/0719/2635/0101/files/natural-history-museum_blue-whale-hintze-hall-photo-lucie-goodayle-image-courtesy-of-the-natural-history-museum_c4b9caf92a46e29762bcc2db0635f11b.jpg?v=1683866237);
+}
+
+.pageSectionImage.artGalleries {
+    background-image: url(https://cdn.shopify.com/s/files/1/0719/2635/0101/files/pexels-photo-1585325.jpg?v=1683866712);
+}
+
+.pageSectionImage.arcade {
+    background-image: url(https://cdn.shopify.com/s/files/1/0719/2635/0101/files/3657982-gettyimages-133033277.jpg?v=1683867034);
+}
+
+.pageSectionImage.fishingTours {
+    background-image: url(https://cdn.shopify.com/s/files/1/0719/2635/0101/files/download_3.jpg?v=1683867463);
+}
+
+.pageSectionImage.snorkeling {
+    background-image: url(https://cdn.shopify.com/s/files/1/0719/2635/0101/files/snorkeling-molokini-crater-turtle-town-maui.jpg?v=1683867617);
+}
+
+.pageSectionImage.ziplining {
+    background-image: url(https://cdn.shopify.com/s/files/1/0719/2635/0101/files/bd.jpg?v=1683867793);
+}
+
+.pageSectionImage.golf {
+    background-image: url(https://cdn.shopify.com/s/files/1/0719/2635/0101/files/download_4.jpg?v=1683867902);
 }
 /* Subsection Options */
 .subSectionOptions {
