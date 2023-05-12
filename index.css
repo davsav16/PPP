@@ -408,6 +408,7 @@ footer {
 }
 
 .pageButtonLink {
+    margin: 10px;
     text-decoration: none;
     padding: 10px;
     border: 2px solid rgb(196, 219, 242);
@@ -446,6 +447,9 @@ footer {
     margin-bottom: 40px;
 }
 
+.pageSectionContainer {
+    margin: 100px 0;
+}
 /* pageSectionImage Images */
 .pageSectionImage.localCousine {
     background-image: url(https://cdn.shopify.com/s/files/1/0719/2635/0101/files/raw-clam-meat-large-seashell-served-food-local-restaurant-island-zanzibar-tanzania-east-africa_185094-7724.jpg?v=1683788930);
@@ -480,6 +484,29 @@ footer {
 
 .pageSectionImage.bedAndBreakfast {
     background-image: url(https://cdn.shopify.com/s/files/1/0719/2635/0101/files/AmeliaIsland-ext2.jpg?v=1683861356);
+}
+.pageSectionImage.taniti {
+    background-image: url(https://cdn.shopify.com/s/files/1/0719/2635/0101/files/featured.jpg?v=1683862169);
+}
+
+.pageSectionImage.boat {
+    background-image: url(https://cdn.shopify.com/s/files/1/0719/2635/0101/files/f96b59_5abd6b993aa54d63b1af8b2e38adcf88_mv2.jpg?v=1683863499);
+}
+
+.pageSectionImage.bus {
+    background-image: url(https://cdn.shopify.com/s/files/1/0719/2635/0101/files/download_1.jpg?v=1683863941);
+}
+
+.pageSectionImage.helicopter {
+    background-image: url(https://cdn.shopify.com/s/files/1/0719/2635/0101/files/air-kauai-helicopters-1.jpg?v=1683862302);
+}
+
+.pageSectionImage.hikingTours {
+    background-image: url(https://cdn.shopify.com/s/files/1/0719/2635/0101/files/m4AFYm.jpg?v=1683864339);
+}
+
+.pageSectionImage.volcanoTours {
+    background-image: url(https://cdn.shopify.com/s/files/1/0719/2635/0101/files/wasabi-tours-16.jpg?v=1683864551);
 }
 /* Subsection Options */
 .subSectionOptions {
