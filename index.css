@@ -159,6 +159,10 @@ header {
 .imageMain.eat {
     background-image: url(https://cdn.shopify.com/s/files/1/0719/2635/0101/files/istockphoto-1201029465-170667a.jpg?v=1683787033);
 }
+/* Rest Page */
+.imageMain.rest {
+    background-image: url(https://cdn.shopify.com/s/files/1/0719/2635/0101/files/image.jpg?v=1683860242);
+}
 .header {
     color: white;
     font-size: 40px;
@@ -465,6 +469,17 @@ footer {
 
 .pageSectionImage.grocers {
     background-image: url(https://cdn.shopify.com/s/files/1/0719/2635/0101/files/istockphoto-1265272573-612x612.jpg?v=1683793839);
+}
+.pageSectionImage.resort {
+    background-image: url(https://cdn.shopify.com/s/files/1/0719/2635/0101/files/20171004gcpbz00_selection-1007.jpg?v=1683860713);
+}
+
+.pageSectionImage.hotels {
+    background-image: url(https://cdn.shopify.com/s/files/1/0719/2635/0101/files/treasure-island-beach.jpg?v=1683861064);
+}
+
+.pageSectionImage.bedAndBreakfast {
+    background-image: url(https://cdn.shopify.com/s/files/1/0719/2635/0101/files/AmeliaIsland-ext2.jpg?v=1683861356);
 }
 /* Subsection Options */
 .subSectionOptions {
